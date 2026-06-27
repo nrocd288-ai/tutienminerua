@@ -88,7 +88,7 @@ export async function POST(request) {
     amount: pkg.price,
     content,
   });
-  const qrDataUrl = await QRCode.toDataURL(qrString, { width: 280, margin: 1 });
+const qrDataUrl = "/qr.png";
 
   return NextResponse.json({ order, qrDataUrl, bank: BANK_INFO });
 }
