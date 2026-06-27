@@ -17,8 +17,8 @@ export const RENTAL_PACKAGES = [
 export const BANK_INFO = {
   bankBin: "970407",
   bankName: "Techcombank",
-  accountNumber: "0123456789",
-  accountName: "NGUYEN VAN A",
+  accountNumber: "6666888206",
+  accountName: "TRAN TUAN ANH",
 };
 
 export function formatVnd(amount) {
